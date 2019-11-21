@@ -1,7 +1,13 @@
+# Title: Exercise 40
+# Author: Benjamin Lemery
+# Date: 11/20/19
+# This program demonstrates the use of classes and object instantiation.
+
 class Song(object):
 
     def __init__(self,lyrics):
         self.lyrics = lyrics
+
     def sing_me_a_song(self):
         for line in self.lyrics:
             print(line)
